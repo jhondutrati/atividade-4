@@ -15,5 +15,6 @@ class LoginActivity : AppCompatActivity() {
             val intencao = Intent(applicationContext, ListaActivity::class.java)
             startActivity(intencao)
         }
+
     }
 }

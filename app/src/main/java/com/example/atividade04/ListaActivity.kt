@@ -1,3 +1,4 @@
+
 package com.example.atividade04
 
 import android.content.Intent
@@ -12,14 +13,21 @@ class ListaActivity: AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.layout_lista)
 
-        setTitle("@Contatinhos")
+        setTitle("Black Tabacaria")
 
-        val contatinhos = arrayOf("Contatinho 1", "Contatinho 2", "Contatinho 3")
+        val contatinhos = arrayOf("Juice", "R$:19,90 ",
+            "Carvão", "R$:20,00",
+            "Essencia","R$:10,00")
         var adaptador = ArrayAdapter<String>(this,
             android.R.layout.simple_list_item_1, contatinhos)
 
+
         val lista = findViewById<ListView>(R.id.lstLista)
         lista.adapter = adaptador
+
+
+
+
 
         val botao = findViewById<FloatingActionButton>(R.id.fabAdicionar)
         botao.setOnClickListener {

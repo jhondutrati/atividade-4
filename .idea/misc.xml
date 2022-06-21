@@ -3,8 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/jhond/StudioProjects/atividade-4/app/src/main/res/layout/layout_cadastro.xml" value="0.12777777777777777" />
-        <entry key="..\:/Users/jhond/StudioProjects/atividade-4/app/src/main/res/layout/layout_lista.xml" value="0.12777777777777777" />
+        <entry key="..\:/Users/jhond/StudioProjects/atividade-4/app/src/main/res/layout/layout_cadastro.xml" value="0.25" />
+        <entry key="..\:/Users/jhond/StudioProjects/atividade-4/app/src/main/res/layout/layout_lista.xml" value="0.33125" />
+        <entry key="..\:/Users/jhond/StudioProjects/atividade-4/app/src/main/res/layout/layout_login.xml" value="0.35052083333333334" />
         <entry key="app/src/main/res/layout/layout_cadastro.xml" value="0.33" />
         <entry key="app/src/main/res/layout/layout_lista.xml" value="0.33" />
         <entry key="app/src/main/res/layout/layout_login.xml" value="0.33" />

@@ -9,9 +9,13 @@ class CadastroActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.layout_cadastro)
 
-        setTitle("Novo Contatinho")
+        setTitle("Novo Produto")
 
         val botaoSalvar = findViewById<Button>(R.id.btnSalvar)
+        botaoSalvar.setOnClickListener {
+            finish()
+        }
+        val botaoCancelar = findViewById<Button>(R.id.btnCancelar)
         botaoSalvar.setOnClickListener {
             finish()
         }
